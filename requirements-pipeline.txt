@@ -1,0 +1,11 @@
+pydicom
+numpy
+pillow
+torch
+torchvision
+transformers
+accelerate
+safetensors
+sentencepiece
+pylibjpeg[all]
+python-gdcm

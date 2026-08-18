@@ -1,0 +1,46 @@
+.DS_Store
+__pycache__/
+*.pyc
+
+# Local-only reference/demo UI files
+demo_app.py
+README_reference.md
+
+# Model caches are large and machine-specific
+model_cache/
+models_cache/
+
+# Raw or generated DICOM data
+input/*
+!input/.gitkeep
+sample_input/*
+Chest_Input/
+Head_Input/
+contrast_eval_111_input/
+contrast_eval_incorrect_11_input/
+contrast_eval_sample/
+incorrect_11/
+Kaggle_Input/
+
+# Pipeline outputs
+output*/
+*_output_contrast_*/
+chest_output_contrast_*/
+head_output_contrast_*/
+anonymized_dicom/
+
+# Local experiment artifacts
+Contrast Results/
+*.xlsx
+*.xls
+*.numbers
+*.zip
+*_manifest.csv
+input_series_manifest.csv
+contrast_eval_111_manifest.csv
+contrast_eval_incorrect_11_manifest.csv
+
+# Local helper scripts that are not required to run the batch pipeline
+show_input_series.py
+visualize_input_series.py
+visualize_combined_results.py
